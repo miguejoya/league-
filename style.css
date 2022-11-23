@@ -1,0 +1,122 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* background-color: grey; */
+}
+
+.lvl-icon {
+  position: relative;
+}
+.summoner-icon {
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.summoner-lvl {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 0px 8px;
+  display: inline-block;
+  position: absolute;
+  top: 123px;
+  left: 50px;
+}
+
+.contenedor-partidas {
+  width: 550px;
+}
+
+.resultados {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  background-color: #ecf2ff;
+}
+
+.lista-juegos {
+  margin-bottom: 8px;
+}
+
+.result-info {
+  align-self: center;
+}
+
+.campeon {
+  display: flex;
+}
+
+.match-champ-icon {
+  border-radius: 30px;
+}
+
+.summoner-spell-1 {
+  display: block;
+  height: 22px;
+  width: 22px;
+  border-radius: 5px;
+}
+
+.summoner-spell-2 {
+  height: 22px;
+  width: 22px;
+  border-radius: 5px;
+}
+
+.list-items {
+  display: flex;
+}
+
+.icon-img {
+  border-radius: 5px;
+  width: 22px;
+  height: 22px;
+}
+
+.contenedor-items {
+  margin-top: 8px;
+}
+
+.kda {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.team1-list {
+  display: flex;
+  align-items: center;
+  height: 18px;
+  gap: 5px;
+}
+
+.contenedor-teams {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.imagen-rank {
+  display: flex;
+  gap: 20px;
+}
+
+.contenedor-partidas-rank {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
